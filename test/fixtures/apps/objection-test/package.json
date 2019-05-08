@@ -1,0 +1,8 @@
+{
+  "name": "objection-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "mysql2": "^1.6.4",
+    "pg": "^7.7.1"
+  }
+}
