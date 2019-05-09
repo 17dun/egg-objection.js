@@ -103,3 +103,7 @@ function promisifyTransaction (client) {
         });
     };
 }
+
+function isGenerator (fn) {
+    return Object.prototype.toString.call(fn) === '[object GeneratorFunction]';
+}
